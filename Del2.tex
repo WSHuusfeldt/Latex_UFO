@@ -1,0 +1,43 @@
+\documentclass{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{import}
+\usepackage{color}
+\usepackage{todonotes}
+\usepackage{listings}
+\usepackage{xcolor}
+
+\graphicspath{ {./images/} }
+
+\title{Titel}
+\author{
+    Andreas Zoega Vesterborg Vikke\\
+    \texttt{cph-av105}
+    \and
+    Asger Hermind Sørensen\\
+    \texttt{cph-as466}
+    \and
+    Martin Eli Frederiksen\\
+    \texttt{cph-mf237}
+    \and
+    William Sehested Huusfeldt\\
+    \texttt{cph-wh106}
+}
+
+\date{}
+\begin{document}
+    \maketitle
+    \tableofcontents
+    \newpage
+
+    \import{sections/}{danishcharacters.tex}
+    \import{sections/}{graphics.tex}
+    \import{sections/}{Sections.tex}
+    \import{sections/}{Lists.tex}
+    \import{sections/}{Table.tex}
+    \import{sections/}{Code.tex}
+    \import{sections/}{Math.tex}
+    \import{sections/}{Todo.tex}
+    \import{sections/}{Bibliography.tex}
+
+\end{document}
